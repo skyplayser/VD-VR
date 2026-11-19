@@ -143,7 +143,7 @@ Voraussetzungen: [Godot](https://godotengine.org/) 4.7.2 mit Android-Exportvorla
 2. **Godot OpenXR Vendors** 5.1.0 aus der AssetLib installieren (landet in `addons/godotopenxrvendors/`, nicht im Repo).
 3. **Projekt → Android-Build-Vorlage installieren** (`android/`, nicht im Repo).
 4. Optional die Hintergrundmusik ablegen, siehe [`music/README.md`](music/README.md).
-5. Exportieren mit der Vorlage **Pico 4 Ultra** (oder `--export-debug "Pico 4 Ultra"` auf der Kommandozeile).
+5. Exportieren mit der Vorlage **Pico** (Release mit eigenem Schlüssel: `tools/build-release.sh`).
 
 Am Desktop ohne Brille: `godot --path . --xr-mode off -- --demo` (Demo-Club), `-- --scan-fake` (Club-Studio mit
 Beispiel-Club), `-- --server=http://<ip>:7700/<code>/` (live mit VD-Link).
