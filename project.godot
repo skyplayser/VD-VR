@@ -1,0 +1,89 @@
+; VD VR – native VR app for Pico and Meta Quest (Godot 4, OpenXR).
+; Eclipse Public License 2.0, see LICENSE. NDI is not used in the headset.
+
+config_version=5
+
+[application]
+
+config/name="VD VR"
+config/description="VD VR: walk through your club, lights and video walls in VR – live from VD-Link or offline. Club-Studio to draw rooms."
+config/version="0.1.0-alpha"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+config/icon="res://icon.png"
+
+[display]
+
+window/vsync/vsync_mode=0
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+anti_aliasing/quality/msaa_3d=2
+environment/defaults/default_clear_color=Color(0.008, 0.008, 0.012, 1)
+
+[shader_globals]
+
+ambient_gain={
+"type": "float",
+"value": 0.8
+}
+spot_count={
+"type": "int",
+"value": 0
+}
+spot_tex={
+"type": "sampler2D",
+"value": ""
+}
+haze={
+"type": "float",
+"value": 0.6
+}
+spot_gain={
+"type": "float",
+"value": 1.6
+}
+spot_map={
+"type": "sampler2D",
+"value": ""
+}
+spot_height={
+"type": "sampler2D",
+"value": ""
+}
+spot_area={
+"type": "vec4",
+"value": Vector4(-20, -20, 40, 40)
+}
+gobo_tex={
+"type": "sampler2D",
+"value": ""
+}
+gobo_grid={
+"type": "vec2",
+"value": Vector2(0, 0)
+}
+spot_wall_count={
+"type": "int",
+"value": 4
+}
+
+[xr]
+
+openxr/enabled=true
+openxr/reference_space=1
+openxr/foveation_level=3
+openxr/foveation_dynamic=true
+shaders/enabled=true
+openxr/target_api_version="1.0.34"
+openxr/startup_alert=false
+openxr/extensions/hand_tracking=false
+openxr/extensions/eye_gaze_interaction=false
+openxr/extensions/render_model=false
+openxr/extensions/user_presence=false
+openxr/extensions/frame_synthesis=false
+openxr/extensions/spatial_entity/enabled=false
+openxr/extensions/hand_interaction_profile=false
