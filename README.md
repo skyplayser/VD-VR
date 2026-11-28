@@ -120,10 +120,10 @@ VD-Link schickst.
 
 ## 🧩 Teil der Link-Suite
 
-VD VR gehört zur **[Link-Suite](https://skyplayser.github.io/Link-Suite/)** – Programme für Licht, Video und Show, die
+VD VR gehört zur **[Link-Suite](https://link-suite.de/launcher/)** – Programme für Licht, Video und Show, die
 zusammenpassen: [VD-Link](https://github.com/skyplayser/VD-Link) zeigt, wie alles zusammen aussieht,
 [LJ-Link](https://github.com/skyplayser/LJ-Link) bringt Takt und Tempo an die Pulte,
-[VJ-Link](https://skyplayser.github.io/VJ-LINK/) spielt die Visuals – und VD VR stellt dich mitten hinein.
+[VJ-Link](https://link-suite.de/vj-link/) spielt die Visuals – und VD VR stellt dich mitten hinein.
 
 ## 🗺️ Als Nächstes
 
@@ -176,8 +176,8 @@ Versionen und Show-Clips zuerst auf Instagram: [@nextphilm](https://www.instagra
 [`licenses/`](licenses/) · Musik: „Chill Out“ von atlasaudio (Pixabay), nur in der fertigen App.
 
 Die Software wird kostenlos und ohne Gewähr bereitgestellt; es gelten die Haftungsregeln der EPL-2.0 im Rahmen des
-deutschen Rechts. [Impressum](https://skyplayser.github.io/VJ-LINK/impressum.html) ·
-[Datenschutz](https://skyplayser.github.io/VJ-LINK/datenschutz.html)
+deutschen Rechts. [Impressum](https://link-suite.de/impressum/) ·
+[Datenschutz](https://link-suite.de/datenschutz/)
 
 <sub>OpenXR™ ist eine Marke der Khronos Group Inc. PICO, Meta Quest und Godot sind Marken ihrer jeweiligen Inhaber.
 VD VR ist ein unabhängiges Projekt und kein offizielles Produkt der genannten Hersteller. © 2026 Philipp Spruck /
